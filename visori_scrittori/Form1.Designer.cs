@@ -34,10 +34,13 @@
             this.checkBoxCorsvivo = new System.Windows.Forms.CheckBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.buttonColori = new System.Windows.Forms.Button();
+            this.textBoxScrivi = new System.Windows.Forms.TextBox();
+            this.buttonScrivi = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // richTextBox1
             // 
+            this.richTextBox1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.richTextBox1.Location = new System.Drawing.Point(198, 60);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.Size = new System.Drawing.Size(395, 204);
@@ -91,11 +94,29 @@
             this.buttonColori.Text = "scegli il colore";
             this.buttonColori.UseVisualStyleBackColor = true;
             // 
+            // textBoxScrivi
+            // 
+            this.textBoxScrivi.Location = new System.Drawing.Point(198, 349);
+            this.textBoxScrivi.Name = "textBoxScrivi";
+            this.textBoxScrivi.Size = new System.Drawing.Size(395, 23);
+            this.textBoxScrivi.TabIndex = 7;
+            // 
+            // buttonScrivi
+            // 
+            this.buttonScrivi.Location = new System.Drawing.Point(368, 398);
+            this.buttonScrivi.Name = "buttonScrivi";
+            this.buttonScrivi.Size = new System.Drawing.Size(75, 23);
+            this.buttonScrivi.TabIndex = 8;
+            this.buttonScrivi.Text = "Scrivi";
+            this.buttonScrivi.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.buttonScrivi);
+            this.Controls.Add(this.textBoxScrivi);
             this.Controls.Add(this.buttonColori);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.checkBoxCorsvivo);
@@ -117,5 +138,7 @@
         private CheckBox checkBoxCorsvivo;
         private ComboBox comboBox1;
         private Button buttonColori;
+        private TextBox textBoxScrivi;
+        private Button buttonScrivi;
     }
 }
